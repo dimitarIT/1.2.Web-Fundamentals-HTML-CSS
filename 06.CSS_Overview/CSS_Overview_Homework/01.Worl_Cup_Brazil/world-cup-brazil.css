@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Calibri";
+}
+
+#background {
+    width: 1251px;
+    height: 420px;
+    background: #00923e;
+    padding-top: 20px;
+}
+
+table {
+    border: 2px solid #000000;
+    border-radius: 20px;
+    background: white;
+    width: 1170px;
+    height: 400px;
+    margin: auto;
+}
+
+table td {
+    border: 1px solid #000000;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+table td:nth-child(1) {
+    text-align: right;
+    padding-right: 5px;
+    width: 200px;
+}
+
+table td:nth-child(3) {
+    text-align: left;
+    padding-left: 5px;
+    width: 200px;
+}
+
+table td:nth-child(5) {
+    text-align: right;
+    padding-right: 5px;
+    width: 170px;
+}
+
+table td:nth-child(6) {
+    width: 130px;
+}
+
+table td:nth-child(7) {
+    width: 165px;
+    text-align: left;
+    padding-left: 5px;
+}
+
+table td:nth-child(8) {
+    width: 65px;
+}
+
+table #first-row td:nth-child(1) {
+    border-top-left-radius: 17px;
+}
+
+table #first-row td:last-child {
+    border-top-right-radius: 17px;
+    text-align: center;
+}
+
+table tr:last-child td:nth-child(1) {
+    border-bottom-left-radius: 17px;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 17px;
+}
+
+#first-row {
+    background: #f8c711;
+    height: 60px;
+    padding-top: 0;
+    font-weight: bold;
+}
+
+table tr {
+    height: 65px;
+}
+
+.second-row, .fourth-row {
+    background: white;
+}
+
+.thirth-row, .fifth-row {
+    background: #c8c8c8;
+}
+
+table tr:nth-child(2) td:nth-child(1) div.image {
+    content: url("flags/brasil.png");
+    float: right;
+    margin-left: 5px;
+    margin-top: 4px;
+    width: 38px;
+    height: 20px;
+}
+
+table tr:nth-child(3) td:nth-child(1) div.image {
+    content: url("flags/spain.png");
+    float: right;
+    margin-left: 5px;
+    margin-top: 4px;
+    width: 38px;
+    height: 20px;
+}
+
+table tr:nth-child(4) td:nth-child(1) div.image {
+    content: url("flags/italy.png");
+    float: right;
+    margin-left: 5px;
+    margin-top: 4px;
+    width: 38px;
+    height: 20px;
+}
+
+table tr:nth-child(5) td:nth-child(1) div.image {
+    content: url("flags/argentina.png");
+    float: right;
+    margin-left: 5px;
+    margin-top: 4px;
+    width: 38px;
+    height: 20px;
+}
+
+table tr:nth-child(6) td:nth-child(1) div.image {
+    content: url("flags/german.png");
+    float: right;
+    margin-left: 5px;
+    margin-top: 4px;
+    width: 38px;
+    height: 20px;
+}
+
+table tr:nth-child(2) td:nth-child(3) div.image {
+    content: url("flags/mexico.png");
+    float: left;
+    margin-left: 5px;
+    margin-top: 4px;
+    width: 38px;
+    height: 20px;
+}
+
+table tr:nth-child(3) td:nth-child(3) div.image {
+    content: url("flags/nederlands.png");
+    float: left;
+    margin-left: 5px;
+    margin-top: 4px;
+    width: 38px;
+    height: 20px;
+}
+
+table tr:nth-child(4) td:nth-child(3) div.image {
+    content: url("flags/england.png");
+    float: left;
+    margin-left: 5px;
+    margin-top: 4px;
+    width: 38px;
+    height: 20px;
+}
+
+table tr:nth-child(5) td:nth-child(3) div.image {
+    content: url("flags/bosnia.png");
+    float: left;
+    margin-left: 5px;
+    margin-top: 4px;
+    width: 38px;
+    height: 20px;
+}
+
+table tr:nth-child(6) td:nth-child(3) div.image {
+    content: url("flags/portugal.png");
+    float: left;
+    margin-left: 5px;
+    margin-top: 4px;
+    width: 38px;
+    height: 20px;
+}
+
+input[type="submit"].image {
+
+    height: 46px;
+    width: 46px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+input[type="submit"].image-enabled {
+    height: 46px;
+    width: 46px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+
+}
+
+input[type="submit"].image:hover {
+    border-radius: 30px;
+    opacity: .5;
+}
+
+input[type="submit"].image-enabled:hover {
+    border-radius: 30px;
+    opacity: .5;
+}
+
+input[type="submit"].image-enabled:active {
+    border: 1px solid darkgrey;
+    border-radius: 30px;
+}
+
+input[type="number"]:disabled:hover {
+    background: grey;
+    color: red;
+}
+
+input[type="number"]:hover {
+    background: darkgrey;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+input.goals-count {
+    height: 42px;
+    width: 42px;
+    background: #dcdcdc;
+    border: 1px solid #a9a9a9;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
