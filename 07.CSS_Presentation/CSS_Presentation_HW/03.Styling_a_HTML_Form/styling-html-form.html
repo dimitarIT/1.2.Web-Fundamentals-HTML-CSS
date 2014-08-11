@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Styling a HTML Form</title>
+    <link rel="stylesheet" href="styling-html-form.css" type="text/css"/>
+</head>
+
+<body>
+
+<div id="background">
+    <form method="post">
+        <div class="content" id="details">
+            <header>
+                Step 1: Your details
+            </header>
+
+            <div>
+                <input type="text" placeholder="First and last name" id="name"/>
+                <label for="name">Name</label>
+            </div>
+
+            <div>
+                <input type="email" placeholder="example@domain.com" name="email" id="email"/>
+                <label for="email">Email</label>
+            </div>
+            <div>
+                <input type="tel" placeholder="eg. +447500000000" name="phone" id="phone"/>
+                <label for="phone">Phone</label>
+            </div>
+        </div>
+
+        <div class="content" id="delivery">
+            <header>
+                Step 2: Delivery address
+            </header>
+
+            <div class="address">
+                <textarea name="address" id="address"></textarea>
+                <label for="address">Address</label>
+            </div>
+
+            <div>
+                <input type="text" name="postcode" id="postcode"/>
+                <label for="postcode">Post code</label>
+            </div>
+
+            <div>
+                <input type="text" name="country" id="country"/>
+                <label for="country">Country</label>
+            </div>
+        </div>
+
+        <div class="content" id="card-details">
+            <header>
+                Step 3: Card details
+            </header>
+
+            <div id="radio-group">
+                <input type="radio" name="card-type" id="visa"/>
+                <label for="visa">VISA</label>
+
+                <input type="radio" name="card-type" id="amex"/>
+                <label for="amex">AmEx</label>
+
+                <input type="radio" name="card-type" id="mastercard"/>
+                <label for="mastercard">Mastercard</label>
+            </div>
+
+            <div>
+                <input type="text" name="card-number" id="card-number"/>
+                <label for="card-number">Card number</label>
+            </div>
+
+            <div>
+                <input type="text"
+                       name="security-code"
+                       id="security-code"/>
+                <label for="security-code">Security code</label>
+            </div>
+
+            <div>
+                <input type="text"
+                       name="name-on-card"
+                       id="name-on-card"/>
+                <label for="name-on-card">Name on card</label>
+            </div>
+        </div>
+
+        <div id="submit-purchase">
+            <input type="submit" name="buy-button" id="buy-button" value="BUY IT!"/>
+        </div>
+    </form>
+</div>
+
+</body>
+
+</html>

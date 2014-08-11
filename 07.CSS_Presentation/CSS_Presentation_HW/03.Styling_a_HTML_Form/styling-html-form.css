@@ -1,0 +1,132 @@
+html {
+    font-family: Tahoma;
+}
+
+body, div, form, input {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+#background {
+    background: url("images-styling-html-form/formBackground.jpg");
+    width: 400px;
+    height: 580px ;
+}
+
+label {
+      float: left;
+      padding-left: 10px;
+      font-size: 0.8rem;
+}
+
+header{
+    color: #ffffff;
+    padding: 10px 0px 10px 10px;
+    font-weight: bold;
+}
+
+input {
+    float: right;
+    margin-right: 50px;
+    border-radius: 5px;
+    height: 25px;
+    margin-top: -7px;
+}
+
+textarea {
+    float: right;
+    margin-right: 50px;
+    border-radius: 5px;
+    margin-top: -7px;
+    height: 70px;
+    width: 172px;
+}
+
+.content .address {
+    height: 85px;
+}
+
+.content div {
+    padding-top: 10px;
+    margin-left: 10px;
+    border: 1px solid #ffffff ;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    width: 90%;
+    height: 35px;
+    margin-bottom: 2px;
+}
+
+.content input:hover, .content textarea:hover {
+    border: 2px solid skyblue;
+}
+
+input[type="radio"] {
+    float: left;
+    margin-left: 10px;
+}
+
+#radio-group label {
+    margin-left: -30px;
+    margin-right: 20px;
+}
+
+#radio-group {
+    position: relative;
+}
+
+#visa:before {
+    position: absolute;
+    margin-top: 6px;
+    content: url(images-styling-html-form/visa.png);
+    margin-left: 15px;
+}
+
+#amex:before {
+    position: absolute;
+    margin-top: 6px;
+    content: url(images-styling-html-form/amex.png);
+    margin-left: 15px;
+
+}
+
+#mastercard:before {
+    position: absolute;
+    margin-top: 6px;
+    content: url(images-styling-html-form/mastercard.png);
+    margin-left: 15px;
+}
+
+#submit-purchase {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+#buy-button {
+    border: none;
+    height: 25px;
+    width: 100px;
+    margin-left: 50%;
+    padding: 3px 10px 10px 10px;
+    background: #04152f;
+    color: white;
+    border-radius: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+
+#buy-button:hover {
+    border: 1px solid #04152f;
+    background: skyblue;
+    color: black;
+    font-weight: bold;
+    text-shadow: none;
+}
+
+#buy-button:active {
+    background: orange;
+    border: 2px solid black;
+    outline: 0;
+}
