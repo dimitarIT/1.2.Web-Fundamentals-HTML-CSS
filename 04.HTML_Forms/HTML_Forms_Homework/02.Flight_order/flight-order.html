@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <title>Flight-order</title>
+    <link type="text/css" rel="stylesheet" href="flight-order.css"/>
+</head>
+
+<body>
+
+<section id="flight-order">
+
+    <form method="get" action="#">
+        <h1>FLIGHT ORDER</h1>
+
+        <div id="container">
+
+            <div id="left-side">
+                <label for="city-from">From</label>
+                <br/>
+                <select name="city-from" id="city-from">
+                    <option value="" disabled selected>enter a city</option>
+                    <option value="Value 1">Varna</option>
+                    <option value="Value 2">Plovdiv</option>
+                    <option value="Value 3">Burgas</option>
+                    <option value="Value 4">Sofia</option>
+                </select>
+                <br/>
+                <label for="city-from" class="free"> </label>
+                <br/>
+
+                <label for="date">Departure Date</label>
+                <input type="date" id="date" name="date">
+                <br/>
+
+                <label for="date-return">Return Date</label>
+                <input type="date" id="date-return" name="date">
+                <br/>
+
+                <label for="12+" class="child">12+</label>
+                <label for="2-12" class="child">2-12</label>
+                <label for="0-2" class="child">0-2</label>
+                <br/>
+
+                <input type="number" min="0" max="9" id="12+" class="number">
+                <input type="number" min="0" max="9" id="2-12" class="number">
+                <input type="number" min="0" max="9" id="0-2" class="number">
+            </div>
+
+            <div id="right-side">
+                <label for="city-to">To</label>
+                <br/>
+                <select name="city-to" id="city-to">
+                    <option value="" disabled selected>enter a city</option>
+                    <option value="Value 1">New York</option>
+                    <option value="Value 2">London</option>
+                    <option value="Value 3">Moscow</option>
+                    <option value="Value 4">Paris</option>
+                </select>
+                <br/>
+
+                <input type="checkbox" name="directs" id="directs">
+                <label for="directs">Prefer directs</label>
+                <br/>
+
+                <label for="time">Time Interval</label>
+                <br/>
+                <input type="time" class="time" id="time">
+                <input type="time" class="time">
+                <br/>
+
+                <label for="time-interval">Time Interval</label>
+                <br/>
+                <input type="time" class="time" id="time-interval">
+                <input type="time" class="time">
+                <br/>
+
+                <label>Choose class</label>
+                <select name="class" id="choose-class">
+                    <option value="Value 1" selected="selected">Economy</option>
+                    <option value="Value 2">Business</option>
+                    <option value="Value 3">First Class</option>
+                </select>
+                <br/>
+
+                <input type="submit" name="submit" id="search" value="Search">
+
+            </div>
+
+        </div>
+
+    </form>
+
+</section>
+
+</body>
+
+</html>

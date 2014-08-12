@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <title>Simple_form</title>
+    <link type="text/css" rel="stylesheet" href="simple-form.css"/>
+</head>
+
+<body>
+<section id="simple-form">
+    <header>
+        <h1>Enter the system</h1>
+
+        <p>It is necessary to login in your account in order to sing in for a course.</p>
+    </header>
+
+    <form method="get" action="#" id="register">
+        <div>
+            <h5>
+                <span>ARE YOU NEW?</span>
+                <span id="blue-color">REGISTER</span>
+            </h5>
+
+            <label>
+                <input type="text" name="user-name" id="user-name" value="" required="true" placeholder="User name">
+            </label>
+            <br/>
+
+            <label>
+                <input type="email" name="email" id="email" value="" required="true" placeholder="Email">
+            </label>
+            <br/>
+
+            <label>
+                <input type="password" name="pass" id="pass" value="" required="true" placeholder="Password"
+                       pattern="[0-9]+">
+            </label>
+            <br/>
+
+            <label>
+                <input type="password" name="confirm-pass" id="confirm-pass" value="" required="true"
+                       placeholder="Confirm Password">
+            </label>
+            <br/>
+
+            <div>
+                <input type="submit" name="submit" id="submit" value="Register">
+            </div>
+        </div>
+    </form>
+
+    <form method="get" action="#" id="login">
+        <div>
+            <h5>
+                <span>ALREADY A STUDENT? </span>LOGIN
+            </h5>
+
+            <label>
+                <input type="text" name="user-name" id="user-name-login" value="" placeholder="User name">
+            </label>
+            <br/>
+
+            <label>
+                <input type="password" name="password" id="password" value="" placeholder="Password">
+            </label>
+            <br/>
+        </div>
+
+        <div>
+            <div>
+                <input type="checkbox" name="remember" id="remember" value="">
+                <label for="remember" class="remember">Remember me?</label>
+            </div>
+
+            <div class="login">
+                <input type="submit" name="submit" id="submit-login" value="Login">
+                <br/>
+                <a href="https://softuni.bg/account/forgottenpassword">Forgot Password </a>
+            </div>
+        </div>
+    </form>
+</section>
+
+</body>
+
+</html>

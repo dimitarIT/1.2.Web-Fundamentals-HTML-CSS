@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Fakebook</title>
+    <link type="text/css" rel="stylesheet" href="fakebook-register-form.css">
+</head>
+
+<body>
+
+<section>
+
+    <header>
+        <h1>fakebook<sub>&reg</sub></h1>
+
+        <h2>Registration</h2>
+
+        <h3>It is safe and it will always be!</h3>
+    </header>
+
+    <form method="get" action="#" id="left-form">
+        <fieldset>
+            <legend>None-import Information</legend>
+            <label><input type="text" placeholder="First name" class="left-inputs"/></label>
+
+            <label><input type="text" placeholder="Last name" class="left-inputs"/></label>
+            <br/>
+
+            <label><input type="email" required="true" placeholder="Your Email" class="left-inputs"/></label>
+
+            <label><input type="text" required="true" placeholder="Phone number" class="left-inputs"/></label>
+            <br/>
+
+            <label><input type="password" required="true" placeholder="Your Password" class="left-inputs"/></label>
+
+            <label><input type="url" placeholder="website" class="left-inputs"/></label>
+            <br/>
+
+            <label for="date" class="date">Birthday</label>
+            <br/>
+            <input type="datetime-local" id="date"/>
+            <br/>
+
+            <input type="radio" name="gender" id="female"/>
+            <label for="female" class="date">Female</label>
+
+            <input type="radio" name="gender" id="male"/>
+            <label for="male" class="date">Female</label>
+
+            <input type="radio" name="gender" id="other"/>
+            <label for="other" class="date">Other</label>
+        </fieldset>
+
+        <input type="reset" value="Clear Form" id="clear-button"/>
+    </form>
+
+    <form method="get" action="#" id="right-form">
+        <fieldset>
+            <legend>Import Information *required</legend>
+
+            <label>
+                <select name="country" id="choose-country">
+                    <option value="" disabled selected>Country</option>
+                    <option value="Value 1">Bulgaria</option>
+                    <option value="Value 2">Germany</option>
+                    <option value="Value 3">USA</option>
+                </select>
+            </label>
+
+            <label><input type="text" required="true" placeholder="Village"/></label>
+
+            <label><input type="text" required="true" placeholder="District"/></label>
+            <br/>
+
+            <label><input type="text" required="true" value="" placeholder="Street" id="street"/></label>
+            <label><input type="text" required="true" value="" placeholder="Nr" class="address"/></label>
+            <label><input type="text" required="true" value="" placeholder="Floor" class="address"/></label>
+            <label><input type="text" required="true" value="" placeholder="Ap Nr" class="address"/></label>
+            <br/>
+
+            <label for="color" class="date">Door Color</label><br/>
+            <input type="color" required="true" value="#FF02FF" id="color"/>
+
+            <label><input type="text" required="true" placeholder="Water Mater Nr"/></label>
+
+            <label>
+                <select name="size" id="pants">
+                    <option value="" disabled selected>Aunt Panties' Size</option>
+                    <option value="Value 1">36</option>
+                    <option value="Value 2">56</option>
+                    <option value="Value 3">It's too big</option>
+                </select>
+            </label>
+            <br/>
+
+            <label for="info" class="date">More Personal Information</label><br/>
+            <textarea name="text" id="info" placeholder="Give Us more Information!!!"></textarea>
+
+        </fieldset>
+
+        <input type="submit" id="submit-button" value="Register"/>
+    </form>
+
+</section>
+
+</body>
+
+</html>

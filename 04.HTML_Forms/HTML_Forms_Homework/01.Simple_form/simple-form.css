@@ -1,0 +1,85 @@
+#simple-form {
+    background-color: #EEEEEE;
+    width: 50%;
+    height: 100%;
+}
+
+html {
+    font-family: Calibri;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+h5 {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+p {
+    font-size: 14px;
+    color: #5A5A5A;
+    padding-left: 15px;
+}
+
+input {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 0px;
+    padding: 5px;
+}
+
+#blue-color, h1 {
+    color: #234465;
+}
+
+#register {
+    float: left;
+    background-color: #EEEEEE;
+    width: 50%;
+    height: 50%;
+}
+
+#login {
+    float: right;
+    background-color: #234465;
+    width: 50%;
+    height: 5%;
+}
+
+.remember {
+    font-size: 12px;
+    float: inherit;
+    color: #EEEEEE;
+}
+
+#submit {
+    float: right;
+    margin: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: #EEEEEE;
+    border: solid #234465 1px;
+    color: #234465;
+
+}
+
+#submit-login {
+    float: right;
+    margin: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: #234465;
+    border: solid #ffff00 1px;
+    color: #EEEEEE;
+
+}
+
+.login {
+    float: right;
+    margin: 10px;
+    color: #EEEEEE;
+}

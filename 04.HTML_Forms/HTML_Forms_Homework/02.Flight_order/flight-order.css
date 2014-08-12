@@ -1,0 +1,78 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Calibri;
+
+}
+
+#flight-order {
+    width: 60%;
+    height: 70%;
+    background-color: #FFC0CB;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    padding: 10px;
+    margin: 10px;
+}
+
+label {
+    font-size: 16px;
+    font-style: italic;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+input, select{
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+    width: 90%;
+}
+
+#container {
+    background-color: #FFC0CB;
+    width: 100%;
+    height: 100%
+
+}
+
+#left-side {
+    float: left;
+    background-color: #FFC0CB;
+    width: 50%;
+    height: 100%;
+
+}
+
+#right-side {
+    float: right;
+    background-color: #FFC0CB;
+    width: 50%;
+    height: 100%;
+}
+
+#directs{
+    padding: 5px;
+    margin-left: 5px;
+    width: 15px;
+}
+.time{
+    width: 40%;
+}
+.child{
+    padding-right: 21%;
+}
+.number{
+    width: 25%;
+    padding-right: 7px;
+    margin-bottom: 5px;
+}
+
+.free{
+   line-height: 23px;
+}

@@ -1,0 +1,114 @@
+section {
+    background-color: #3B5997;
+    width: 70%;
+    height: 70%;
+    font-family: "Arial";
+    color: white;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 0;
+    margin: 15px;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+    margin: 15px;
+    margin-bottom: 25px;
+}
+
+sub {
+    font-size: 20px;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+    background-color: #3B5997;
+}
+
+#left-form {
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+#right-form {
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+
+legend {
+    font-size: 15px;
+    text-align: center;
+}
+
+fieldset {
+    margin: 10px;
+}
+
+input, select, textarea {
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px;
+}
+
+label {
+    font-size: 12px;
+}
+
+.left-inputs {
+    width: 40%;
+}
+
+.date {
+    font-size: 12px;
+    padding: 5px;
+    margin: 0px;
+}
+
+#date {
+    width: 65%;
+}
+
+#clear-button, #submit-button {
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+    width: 95%;
+    color: #406DA9;
+    background-color: #DDDDDD;
+}
+
+#street {
+    width: 25%;
+}
+
+.address {
+    width: 15%;
+}
+
+#color {
+    padding: 2px;
+}
+
+#info {
+    width: 95%;
+    margin-bottom: 0px;
+}
+
+#submit-button {
+    margin-top: 4px;
+}
