@@ -1,0 +1,43 @@
+main {
+    background-color: #FFC0CB;
+    width: 1000px;
+    height: 370px;
+    padding: 1px 35px 15px 25px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+}
+h2 {
+    margin-bottom: 5px;
+}
+
+img{
+    width: 240px;
+    height: 195px;
+}
+
+section {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+
+.videos{
+    margin-left: 60px;
+}
+
+figure{
+    margin: 0;
+}
+
+figcaption{
+    font-size: 15pt;
+    font-weight: bold;
+}
+meter{
+    margin-top: 6px;
+    width: 60%;
+    height: 19pt;
+}
