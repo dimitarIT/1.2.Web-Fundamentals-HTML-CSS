@@ -1,0 +1,19 @@
+.head-simple-table {
+    font-size: 50px;
+    font-family: "Tahoma";
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.body-simple-table {
+    font-family: "Tahoma";
+    font-size: 26px;
+}
+
+.img-logo {
+    width: 100%;
+}
+
+.size-simple-table {
+    width: 50%;
+}

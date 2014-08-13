@@ -1,0 +1,145 @@
+#table, table, th, td {
+    border: 1px solid #000000;
+    border-collapse: separate;
+    font-family: "Tahoma";
+
+}
+
+.text-head-table {
+    width: 98%;
+    margin: 5px;
+    font-family: "Tahoma";
+    font-size: 50px;
+    text-align: center;
+    color: blue;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.google {
+    width: 97%;
+    margin: 5px;
+    font-family: "Tahoma";
+    font-size: 20px;
+    color: blue;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.git-hub {
+    width: 97%;
+    margin: 5px;
+    font-family: "Tahoma";
+    font-size: 20px;
+    color: blue;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.row-width {
+    width: 25%;
+}
+
+.fb {
+    width: 96%;
+    height: 100px;
+    margin: 5px;
+    font-family: "Tahoma";
+    font-size: 20px;
+    color: blue;
+}
+
+.gmail {
+    width: 96%;
+    height: 100px;
+    margin: 5px;
+    font-family: "Tahoma";
+    font-size: 20px;
+    color: blue;
+}
+
+.you-tube {
+    width: 96%;
+    height: 100px;
+    margin: 5px;
+    font-family: "Tahoma";
+    font-size: 20px;
+    color: blue;
+}
+
+.bits {
+    width: 96%;
+    height: 100px;
+    margin: 5px;
+    font-family: "Tahoma";
+    font-size: 20px;
+    color: blue;
+}
+
+.food {
+    width: 96%;
+    height: 100px;
+    margin: 5px;
+    font-family: Tahoma;
+    font-size: 20px;
+    color: blue;
+}
+
+.game {
+    width: 97%;
+    height: 100px;
+    margin: 5px;
+    font-family: Tahoma;
+    font-size: 20px;
+    color: blue;
+}
+
+.second-table {
+    width: 100%;
+    border: none;
+    font-family: "Tahoma";
+    text-align: center;
+    align-content: center;
+}
+
+.social-life {
+    width: 97%;
+    height: 50px;
+    font-family: Tahoma;
+    font-size: 15px;
+    color: blue;
+
+}
+
+.sleep {
+    width: 97%;
+    height: 50px;
+    font-family: Tahoma;
+    font-size: 15px;
+    color: blue;
+}
+
+.beer {
+    text-align: right;
+    width: 98%;
+    height: 100px;
+    margin: 5px;
+    font-family: Tahoma;
+    font-size: 30px;
+    color: blue;
+}
+
+.WC {
+    width: 94%;
+    height: 100px;
+    margin: 5px;
+    font-family: Tahoma;
+    font-size: 20px;
+    color: blue;
+}

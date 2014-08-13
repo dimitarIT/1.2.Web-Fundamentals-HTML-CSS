@@ -1,0 +1,22 @@
+#table, table, th, td {
+    border: 1px solid #000000;
+    border-collapse: separate;
+    font-family: "Tahoma";
+}
+
+.second-table {
+    padding: 10px;
+}
+
+.text {
+    padding: 10px;
+    font-size: 55px;
+    text-align: left;
+}
+
+.img {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
