@@ -1,0 +1,59 @@
+.footer-runners-home {
+    text-align: left;
+    padding: 370px 0 0 0;
+}
+
+.body-user-profile {
+    background: skyblue;
+}
+
+.dog-pic {
+    width: 350px;
+    height: 235px;
+}
+
+.dictionary {
+    font-style: italic;
+}
+
+.power-point {
+    background-image: url("../05.Power-point-slide/background.jpg");
+}
+
+.heading {
+    color: #F3BE60;
+    font-family: "Consolas";
+    font-size: 38px;
+}
+
+.list-items {
+    color: #FFFFFF;
+    font-family: "Calibri";
+    font-size: 34px;
+}
+
+.text-formatting {
+    color: #FBEEC9;
+    border: solid #C7BFAC 2px;
+    background: #20201E;
+    font-family: "Consolas";
+    font-size: 24px;
+    border-spacing: 10;
+    padding: 5px;
+}
+
+.div-style {
+    padding-left: 20px;
+}
+
+#span, span {
+    color: #F3BE60;
+    font-family: "Consolas";
+    font-size: 34px;
+}
+
+.logo-pic {
+    width: 200px;
+    position: absolute;
+    padding-left: 81%;
+}
